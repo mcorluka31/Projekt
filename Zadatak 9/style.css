@@ -1,0 +1,263 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+
+body, html {
+    font-size: 16px;
+}
+
+ul {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #676767;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: 800;
+    color: white;
+}
+
+li a:hover {
+ background-color: white;
+ color:#676767;
+}
+
+.hero {
+    background-image: url("images/Standup-Comedy-1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    position: relative;
+    height: 700px;
+    opacity: 0.5;
+
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 2em;
+    text-decoration: underline;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+main a {
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+p {
+    font: 0.8em;
+    padding: 15px;
+}
+
+figure {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid black;
+    width:40%;
+    padding: 5px;
+    text-align: center;
+
+}
+
+figure img {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    background-color: #676767;
+    color:white;
+    clear: both;
+}
+
+footer p {
+    margin-right: 2em;
+}
+
+.novosti {
+    font-size: 5em;
+    color: black;
+    position: relative;
+    top: -400px;
+    z-index: 100;
+    
+}
+
+.naslov {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: coral;
+}
+
+.naslov:hover {
+    text-decoration: solid;
+    color: cornflowerblue;
+}
+
+.clanak img {
+	width: 15%;
+	float: left;
+	padding: 0.2em;
+	margin: 0.3em;
+}
+
+.clanak img:hover {
+    width: 18%;
+    transition: 0.5s;
+}
+
+.clanak a {
+    font-size: 0.8em;
+}
+
+.clanak p {
+    font-size: 1.2em;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.clanak time {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.clanak-img {
+    float: left;
+    width: 20%;
+    margin: 1.5em;
+}
+
+.podnaslov {
+ font-weight: 800;
+}
+
+hr {
+	margin: 1em;
+	border: 1px solid #684452;
+	clear: both;
+}
+
+.kontakt-forma {
+    text-align: center;
+}
+
+label {
+    display: block;
+}
+
+input[type=text], input[type=email], select, textarea {
+    width: 40%;
+    padding: 10px;
+
+}
+input[type=submit] {
+    display: block;
+	background-color: #0a1f7c;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 15%;
+    margin: 0 auto;
+}
+
+input[type=submit]:hover {
+    background-color: burlywood;
+
+}
+
+iframe {
+    padding: 15px;
+}
+
+.galerija {
+float: left;
+  margin: 5px;
+  border: 1px solid black;
+  width: 25%;
+  float: left;
+}
+
+ .fotka {
+  width: 25%;
+}
+
+
+.fotografije figure
+{
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 30%;
+    border: 1px solid black;
+}
+
+
+@media screen and (max-width: 560px) {
+    .hero {
+    background-image: url("images/Standup-Comedy-1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    position: relative;
+    height: 400px;
+    }
+	li a {
+        font-size: 0.8em;
+        padding: 5px;
+    }
+
+    figure {
+        width: 80%;
+    }
+
+    .novosti{
+        top: -300px;
+    }
+
+    .clanak img {
+        width: 50%;
+    }
+
+    .clanak img:hover {
+        width: 50%;
+        transition: none;
+    }
+
+    .clanak {
+        padding:0.5em;
+    }
+
+    .clanak-img {
+    float: left;
+    width: 40%;
+    margin: 1.5em;
+}
+
+.fotografije figure {
+    width: 100%;
+}
+
+video {
+    width: 100%;
+}
+}
